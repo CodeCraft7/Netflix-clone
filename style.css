@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    background-image: url("image/bg1.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+.btn {
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    padding: 5px 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.hero-section {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-section h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.hero-section h5 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-section input {
+    border: 1px solid red;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: transparent;
+    color: inherit;
+}
+
+.hero-section button {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+}
+
+.line {
+    background-color: #3a3a3a;
+    color: white;
+    padding: 5px;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+.feature h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.feature h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.source {
+    position: relative;
+    padding: 10px;
+}
+
+.source-video {
+    position: absolute;
+    top: 88px;
+    left: 76px;
+    z-index: -1;
+}
+
+.source-box {
+    border: 3px solid #3a3a3a;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background-color: black;
+    top: 350px;
+    left: 145px;
+    padding: 5px 30px;
+}
+
+.frequently h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.frequently h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.question {
+    background-color: #3a3a3a;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin:5px 200px ;
+    padding: 10px;
+   
+}
+.question:hover {
+    background-color: #6d6d6d;
+}
+.Answer {
+    background-color: #3a3a3a;
+    font-size: 1.2rem;
+    margin:5px 200px ;
+    padding: 10px;
+}
+.Answer {
+    display: none;
+}
+
+.Answer.active-answer {
+    display: block;
+}
+/* Add this CSS to your existing stylesheet */
+footer {
+    color: #757575;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-column {
+    flex: 1;
+    max-width: 200px;
+}
+
+.footer-column h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #757575;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    color: #fff;
+}
+.footer-column select{
+    padding: 5px 15px;
+    font-size: 20px;
+}
